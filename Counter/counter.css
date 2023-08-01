@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.container{
+    width: 50%;
+    height: 400px;
+    background-color: antiquewhite;
+    border: 2px solid navy;
+    margin-left: 25%;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 30px;
+}
