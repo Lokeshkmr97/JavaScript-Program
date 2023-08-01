@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+
+    <style>
+        body{
+            background-color: cadetblue;
+            font: 200;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .hour,.minute,.second{
+            height: 50px;
+            width: 50px;
+            /* position: relative;
+            left: 100px; */
+            background-color: black;
+            border: 1px;
+            color: aliceblue;
+        }
+        button{
+            text-align: center;
+        }
+        h1{
+            text-align:center;
+        }
+
+        div{
+            text-align: center;
+        }
+        p{
+            display: inline;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="clock">
+        <h1>Digital Clock Using JavaScript</h1>
+        <button class="hour btn btn"></button>
+        <p>Hour</p>
+        <button class="minute"></button>
+        <p>Minute</p>
+        <button class="second"></button>
+        <p>Second</p>
+    </div>
+    <script src="digitalClock.js"></script>
+</body>
+</html>
