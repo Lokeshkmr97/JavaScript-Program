@@ -1,0 +1,9 @@
+
+// find square of the all elements in the array.
+let arr=[1,2,3,4,5,6,7,8,9,10]
+
+let squareArr=arr.map((sq)=>{
+    return sq*sq;
+});
+
+console.log(squareArr);
