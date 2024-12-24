@@ -6,7 +6,7 @@ const st = "zxcvbnmlkjhgfdasuisaqwertyp";
 
 const distinctVowels=(str)=>{
     let distinctVowel=new Set(str)
-    return Array(distinctVowel)
+    return Array.from(distinctVowel)
 }
 
 console.log(`Distinct Vowels using set function = ${distinctVowels(st)}`)
